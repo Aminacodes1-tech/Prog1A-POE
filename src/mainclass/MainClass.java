@@ -21,12 +21,12 @@ public class MainClass {
        
         System.out.println("***Registration***");
         
-        System.out.print("Please enter your first name:");
+        System.out.print("Hi, Please enter your first name: ");
         String firstName = scan.nextLine();
         log.setName(firstName);
         
         
-        System.out.print("Please enter your last name:");
+        System.out.print("Please enter your last name: ");
         String LastName = scan.nextLine();
         log.setLastname(LastName);
         

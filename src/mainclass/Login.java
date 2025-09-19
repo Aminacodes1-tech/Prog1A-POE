@@ -72,7 +72,7 @@ public boolean CheckPasswordComplexity(String password){
         return false;
     }
     
-    // Check if password contains at least one capital letter
+    // Check if password contains at least a capital letter
     boolean hasCapital = false;
     // Check if password contains at least one number
     boolean hasNumber = false;
@@ -126,7 +126,7 @@ public boolean CheckPasswordComplexity(String password){
         if(loginSuccessful){
           return "Welcome " + getName() + " "  +getLastname() + " it is great to see you again";
         }else{
-            return "Username or password incorrect please try again";
+            return "Username or password is incorrect please try again";
         }
     }
    
