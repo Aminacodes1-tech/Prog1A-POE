@@ -81,12 +81,13 @@ public class MainClass {
         
         System.out.println();
      
-        System.out.println("***LOGIN***");
+        System.out.println("****LOGIN****");
         //login user
         System.out.print("Enter username to login:");
         String Secondusername=scan.next();
         System.out.print("Enter password to login:");
         String Secondpassword=scan.next();
+        
          //display login Status
         boolean loginSuccessful= log.LoginUser(Secondusername,Secondpassword);
         String loginMessage=log.ReturnLoginStatus(loginSuccessful);
