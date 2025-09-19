@@ -19,7 +19,7 @@ public class MainClass {
         //Scanner object
         Scanner scan = new Scanner(System.in);
        
-        System.out.println("****Registration****");
+        System.out.println("***Registration***");
         
         System.out.print("Hi, Please enter your first name: ");
         String firstName = scan.nextLine();
