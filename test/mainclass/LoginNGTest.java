@@ -78,6 +78,6 @@ public class LoginNGTest {
     @Test
     public void testReturnLoginStatusFailed() {
         String result = login.ReturnLoginStatus(false);
-        assertEquals(result, "Username or password incorrect please try again");
+        assertEquals(result, "Username or password is incorrect please try again");
     }
 }
