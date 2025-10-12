@@ -3,10 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-/**
- *
- * @author ICT 2022
- */
 package mainclass;
 
 import javax.swing.JOptionPane;
@@ -19,6 +15,11 @@ import java.io.FileWriter;//FILE HANDLING
 import java.io.IOException;
 import java.io.FileReader;
 import java.io.BufferedReader;
+
+/**
+ *
+ * @author ICT 2022
+ */
 
 public class Message {
     private String messageID;
