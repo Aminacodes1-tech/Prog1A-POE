@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Random;
 import org.json.JSONArray;//JSON
 import org.json.JSONObject;
-import java.io.FileWriter;//FILE HANDLING
+import java.io.FileWriter;// for FILE HANDLING
 import java.io.IOException;
 import java.io.FileReader;
 import java.io.BufferedReader;
