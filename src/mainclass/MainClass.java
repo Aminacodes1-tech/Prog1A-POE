@@ -109,7 +109,7 @@ public class MainClass {
             String choiceStr = JOptionPane.showInputDialog(null, menu, "QuickChat", JOptionPane.QUESTION_MESSAGE);
             
             if (choiceStr == null) {
-                // User closed the dialog
+              
                 break;
             }
             
