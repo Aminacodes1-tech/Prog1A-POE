@@ -27,7 +27,7 @@ public class MessageNGTest {
     
     @AfterMethod
     public void tearDown() {
-        // Clean up after each test
+        // for cleaning up after each test
         Message.getSentMessages().clear();
         resetTotalMessagesCounter();
     }
