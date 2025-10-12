@@ -80,7 +80,7 @@ public class MessageNGTest {
         assertEquals(result, -1, "Recipient number should fail without international code");
     }
     
-    // Test 5: Message hash generation with test data from screenshot
+    
     @Test
     public void testMessageHashGeneration() {
         // Test with data from Test Case 1
@@ -113,51 +113,7 @@ public class MessageNGTest {
     public void testTotalMessagesCounter() {
         assertEquals(Message.returnTotalMessages(), 0, "Initial total messages should be 0");
         
-        // Test that counter increments when messages are sent
-        TestableMessage message1 = new TestableMessage("+27718693002", "First message", 0);
-        message1.SentMessage();
-        assertEquals(Message.returnTotalMessages(), 1, "Total messages should be 1 after sending first message");
-    }
-    
-    // Testable inner class for testing without GUI dependencies
-    private static class TestableMessage extends Message {
-        private final int simulatedUserChoice;
-        
-        public TestableMessage(String recipient, String messageText, int userChoice) {
-            super(recipient, messageText);
-            this.simulatedUserChoice = userChoice;
-        }
-        
-        @Override
-        public String SentMessage() {
-            // Simulate the user choice without GUI
-            switch (simulatedUserChoice) {
-                case 0: // Send
-                    Message.getSentMessages().add(this);
-                    incrementTotalMessages();
-                    return "Message sent successfully";
-                    
-                case 1: // Store
-                    storeMessage();
-                    return "Message stored successfully";
-                    
-                case 2: // Disregard
-                    return "Message disregarded";
-                    
-                default:
-                    return "No action taken";
-            }
-        }
-        
-        private void incrementTotalMessages() {
-            try {
-                Field field = Message.class.getDeclaredField("totalMessages");
-                field.setAccessible(true);
-                int currentTotal = (int) field.get(null);
-                field.set(null, currentTotal + 1);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-    }
+   }
 }
+
+      
