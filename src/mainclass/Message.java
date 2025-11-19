@@ -17,7 +17,10 @@ import java.io.FileReader;
 import java.io.BufferedReader;
 import java.util.stream.Collectors;
 
-
+/**
+ *
+ * @author ICT 2022
+ */
 public class Message {
     private String messageID;
     private String recipient;

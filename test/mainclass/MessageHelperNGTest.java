@@ -9,6 +9,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
+/**
+ *
+ * @author ICT 2022
+ */
 public class MessageHelperNGTest {
     
     private MessageHelper messageHelper;
