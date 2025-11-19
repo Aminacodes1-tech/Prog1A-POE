@@ -1,7 +1,387 @@
-[{
-    "messageText": "Hi bro,hope you're good",
-    "recipient": "+276953420",
-    "messageID": "9087106229",
-    "messageHash": "90:0:HIGOOD",
-    "timestamp": 1760254026381
-}]
+[
+    {
+        "messageText": "Hi bro,hope you're good",
+        "recipient": "+276953420",
+        "messageID": "9087106229",
+        "messageHash": "90:0:HIGOOD",
+        "timestamp": 1760254026381
+    },
+    {
+        "messageText": "Hi,I'm done w my work",
+        "recipient": "+27654321",
+        "messageID": "9917312219",
+        "messageHash": "99:0:HI,I'MWORK",
+        "timestamp": 1760255671404
+    },
+    {
+        "messageText": "Did you get the cake?",
+        "recipient": "+27834557896",
+        "messageID": "9121748932",
+        "messageHash": "91:5:DIDCAKE?",
+        "timestamp": 1763507130095
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "9495431994",
+        "messageHash": "94:6:WHERETIME.",
+        "timestamp": 1763507131487
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "2994338716",
+        "messageHash": "29:1:WHERETIME.",
+        "timestamp": 1763507485215
+    },
+    {
+        "messageText": "Yohoooo, I am at your gate.",
+        "recipient": "+27834484567",
+        "messageID": "6131546140",
+        "messageHash": "61:2:YOHOOOO,GATE.",
+        "timestamp": 1763507485938
+    },
+    {
+        "messageText": "auoifylq8wryadydhjgalfkgwah'fp",
+        "recipient": "+271234567",
+        "messageID": "8211695818",
+        "messageHash": "82:6:AUOIFYLQ8WRYADYDHJGALFKGWAH'FPAUOIFYLQ8WRYADYDHJGALFKGWAH'FP",
+        "timestamp": 1763508631544
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "1819312802",
+        "messageHash": "18:8:WHERETIME.",
+        "timestamp": 1763582607393
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "0972916324",
+        "messageHash": "09:11:OK,YOU.",
+        "timestamp": 1763582607446
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "0783535606",
+        "messageHash": "07:22:WHERETIME.",
+        "timestamp": 1763582607539
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "2374037980",
+        "messageHash": "23:25:OK,YOU.",
+        "timestamp": 1763582607547
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "4540491029",
+        "messageHash": "45:38:WHERETIME.",
+        "timestamp": 1763582607644
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "3624233564",
+        "messageHash": "36:41:OK,YOU.",
+        "timestamp": 1763582607658
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "1622005970",
+        "messageHash": "16:56:WHERETIME.",
+        "timestamp": 1763582607686
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "2358961291",
+        "messageHash": "23:59:OK,YOU.",
+        "timestamp": 1763582607703
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "2333558851",
+        "messageHash": "23:76:WHERETIME.",
+        "timestamp": 1763582607743
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "7511544882",
+        "messageHash": "75:79:OK,YOU.",
+        "timestamp": 1763582607753
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "7195493298",
+        "messageHash": "71:98:WHERETIME.",
+        "timestamp": 1763582607789
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "9626031288",
+        "messageHash": "96:101:OK,YOU.",
+        "timestamp": 1763582607792
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "4152589962",
+        "messageHash": "41:20:WHERETIME.",
+        "timestamp": 1763582624994
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "7948040649",
+        "messageHash": "79:23:OK,YOU.",
+        "timestamp": 1763582625021
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "0113504076",
+        "messageHash": "01:46:WHERETIME.",
+        "timestamp": 1763582625071
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "4703428790",
+        "messageHash": "47:49:OK,YOU.",
+        "timestamp": 1763582625243
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "5586580356",
+        "messageHash": "55:74:WHERETIME.",
+        "timestamp": 1763582625452
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "8332023516",
+        "messageHash": "83:77:OK,YOU.",
+        "timestamp": 1763582625458
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "1087241251",
+        "messageHash": "10:104:WHERETIME.",
+        "timestamp": 1763582625520
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "3427811290",
+        "messageHash": "34:107:OK,YOU.",
+        "timestamp": 1763582625526
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "8564497377",
+        "messageHash": "85:136:WHERETIME.",
+        "timestamp": 1763582625579
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "1573537217",
+        "messageHash": "15:139:OK,YOU.",
+        "timestamp": 1763582625603
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "8727301021",
+        "messageHash": "87:170:WHERETIME.",
+        "timestamp": 1763582625656
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "6321169456",
+        "messageHash": "63:173:OK,YOU.",
+        "timestamp": 1763582625660
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "2765407347",
+        "messageHash": "27:32:WHERETIME.",
+        "timestamp": 1763582658680
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "6346795259",
+        "messageHash": "63:35:OK,YOU.",
+        "timestamp": 1763582658702
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "5149267137",
+        "messageHash": "51:70:WHERETIME.",
+        "timestamp": 1763582658793
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "4605701583",
+        "messageHash": "46:73:OK,YOU.",
+        "timestamp": 1763582658804
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "3790596048",
+        "messageHash": "37:110:WHERETIME.",
+        "timestamp": 1763582658902
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "8178392555",
+        "messageHash": "81:113:OK,YOU.",
+        "timestamp": 1763582658919
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "8635123829",
+        "messageHash": "86:152:WHERETIME.",
+        "timestamp": 1763582658950
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "6795841583",
+        "messageHash": "67:155:OK,YOU.",
+        "timestamp": 1763582658968
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "7862420458",
+        "messageHash": "78:196:WHERETIME.",
+        "timestamp": 1763582659010
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "0063720354",
+        "messageHash": "00:199:OK,YOU.",
+        "timestamp": 1763582659021
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "8970193423",
+        "messageHash": "89:242:WHERETIME.",
+        "timestamp": 1763582659145
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "3340291223",
+        "messageHash": "33:245:OK,YOU.",
+        "timestamp": 1763582659163
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "4794618867",
+        "messageHash": "47:44:WHERETIME.",
+        "timestamp": 1763582709455
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "0825250457",
+        "messageHash": "08:47:OK,YOU.",
+        "timestamp": 1763582709708
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "4359729469",
+        "messageHash": "43:94:WHERETIME.",
+        "timestamp": 1763582709938
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "1115013926",
+        "messageHash": "11:97:OK,YOU.",
+        "timestamp": 1763582710073
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "5455111321",
+        "messageHash": "54:146:WHERETIME.",
+        "timestamp": 1763582710240
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "8614688732",
+        "messageHash": "86:149:OK,YOU.",
+        "timestamp": 1763582710258
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "8230714700",
+        "messageHash": "82:200:WHERETIME.",
+        "timestamp": 1763582710285
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "9774597452",
+        "messageHash": "97:203:OK,YOU.",
+        "timestamp": 1763582710303
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "4619847715",
+        "messageHash": "46:256:WHERETIME.",
+        "timestamp": 1763582710440
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "3402729616",
+        "messageHash": "34:259:OK,YOU.",
+        "timestamp": 1763582710445
+    },
+    {
+        "messageText": "Where are you? You are late! I have asked you to be on time.",
+        "recipient": "+27838884567",
+        "messageID": "7069672395",
+        "messageHash": "70:314:WHERETIME.",
+        "timestamp": 1763582710474
+    },
+    {
+        "messageText": "Ok, I am leaving without you.",
+        "recipient": "+27838884567",
+        "messageID": "2129128625",
+        "messageHash": "21:317:OK,YOU.",
+        "timestamp": 1763582710492
+    }
+]

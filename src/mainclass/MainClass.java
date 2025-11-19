@@ -1,3 +1,8 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
 package mainclass;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
@@ -83,6 +88,8 @@ public class MainClass {
       
         if(loginSuccessful){
             System.out.println(loginMessage);
+            // Load stored messages from JSON file
+            Message.loadStoredMessagesFromJSON();
             // Start messaging application after successful login
             startMessagingApplication(scan);
         } else {
@@ -99,17 +106,16 @@ public class MainClass {
         boolean running = true;
         
         while (running) {
-            // menu
+            // Main menu
             String menu = "QuickChat Menu:\n\n" +
                          "1) Send Messages\n" +
-                         "2) Show recently sent messages\n" +
+                         "2) Show Recently Sent Messages(New Update Functions)\n" +
                          "3) Quit\n\n" +
                          "Please choose an option:";
             
             String choiceStr = JOptionPane.showInputDialog(null, menu, "QuickChat", JOptionPane.QUESTION_MESSAGE);
             
             if (choiceStr == null) {
-              
                 break;
             }
             
@@ -121,7 +127,7 @@ public class MainClass {
                         sendMessages(scan);
                         break;
                     case 2:
-                        JOptionPane.showMessageDialog(null, "Coming Soon.", ".", JOptionPane.INFORMATION_MESSAGE);
+                        showMessageOperationsMenu();
                         break;
                     case 3:
                         running = false;
@@ -138,6 +144,95 @@ public class MainClass {
             }
         }
     }
+    
+   private static void showMessageOperationsMenu() {
+    MessageHelper messageHelper = new MessageHelper();
+    boolean backToMain = false;
+    
+    while (!backToMain) {
+        String operationsMenu = "Message Operations & New Update Functions:\n\n" +
+                              "a) Populate With Test Data\n"+
+                              "b) Show Recently Sent Messages\n" +
+                              "c) Display sender and recipient of all sent messages\n" +
+                              "d) Display the longest sent message\n" +
+                              "e) Search for message by ID\n" +
+                              "f) Search messages by recipient\n" +
+                              "g) Delete message by hash\n" +
+                              "h) Display full report\n" +
+                              "j) Back to main menu\n\n" +
+                              "Please choose an option:";
+        
+        String choiceStr = JOptionPane.showInputDialog(null, operationsMenu, "Message Operations", JOptionPane.QUESTION_MESSAGE);
+        
+        if (choiceStr == null) {
+            backToMain = true;
+            continue;
+        }
+        
+        switch (choiceStr.toLowerCase()) {
+            case "a":
+                messageHelper.populateWithTestData();
+                JOptionPane.showMessageDialog(null, "Test data populated successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
+                break;
+                
+            case "b":
+                String recentMessages = Message.printMessages();
+                JOptionPane.showMessageDialog(null, recentMessages, "Recently Sent Messages", JOptionPane.INFORMATION_MESSAGE);
+                break;
+                
+            case "c":
+                String sentMessages = messageHelper.displayAllSentMessages();
+                JOptionPane.showMessageDialog(null, sentMessages, "All Sent Messages", JOptionPane.INFORMATION_MESSAGE);
+                break;
+                
+            case "d":
+                String longestMessage = messageHelper.displayLongestMessage();
+                JOptionPane.showMessageDialog(null, longestMessage, "Longest Message", JOptionPane.INFORMATION_MESSAGE);
+                break;
+                
+            case "e":
+                String searchID = JOptionPane.showInputDialog(null, "Enter Message ID to search:", "Search by ID", JOptionPane.QUESTION_MESSAGE);
+                if (searchID != null && !searchID.trim().isEmpty()) {
+                    String searchResult = messageHelper.searchMessageByID(searchID.trim());
+                    JOptionPane.showMessageDialog(null, searchResult, "Search Result", JOptionPane.INFORMATION_MESSAGE);
+                }
+                break;
+                
+            case "f":
+                String recipient = JOptionPane.showInputDialog(null, "Enter recipient phone number:", "Search by Recipient", JOptionPane.QUESTION_MESSAGE);
+                if (recipient != null && !recipient.trim().isEmpty()) {
+                    String recipientResult = messageHelper.searchMessagesByRecipient(recipient.trim());
+                    JOptionPane.showMessageDialog(null, recipientResult, "Recipient Messages", JOptionPane.INFORMATION_MESSAGE);
+                }
+                break;
+                
+            case "g":
+                String hash = JOptionPane.showInputDialog(null, "Enter message hash to delete:", "Delete by Hash", JOptionPane.QUESTION_MESSAGE);
+                if (hash != null && !hash.trim().isEmpty()) {
+                    String deleteResult = messageHelper.deleteMessageByHash(hash.trim());
+                    JOptionPane.showMessageDialog(null, deleteResult, "Delete Result", JOptionPane.INFORMATION_MESSAGE);
+                }
+                break;
+                
+            case "h":
+                String fullReport = messageHelper.displayFullReport();
+                JOptionPane.showMessageDialog(null, fullReport, "Full Messaging Report", JOptionPane.INFORMATION_MESSAGE);
+                break;
+                
+            case "i":
+                String stats = messageHelper.getStatistics();
+                JOptionPane.showMessageDialog(null, stats, "Message Statistics", JOptionPane.INFORMATION_MESSAGE);
+                break;
+                
+            case "j":
+                backToMain = true;
+                break;
+                
+            default:
+                JOptionPane.showMessageDialog(null, "Invalid option. Please choose a valid option.", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+}
     
     private static void sendMessages(Scanner scan) {
         String numMessagesStr = JOptionPane.showInputDialog(null, 
@@ -211,4 +306,5 @@ public class MainClass {
             JOptionPane.showMessageDialog(null, "Please enter a valid number.", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
+    
 }
