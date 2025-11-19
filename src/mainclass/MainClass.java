@@ -6,7 +6,10 @@
 package mainclass;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
-
+/**
+ *
+ * @author ICT 2022
+ */
 public class MainClass {
 
     public static void main(String[] args) {

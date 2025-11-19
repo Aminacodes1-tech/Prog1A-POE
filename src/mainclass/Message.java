@@ -17,6 +17,7 @@ import java.io.FileReader;
 import java.io.BufferedReader;
 import java.util.stream.Collectors;
 
+
 public class Message {
     private String messageID;
     private String recipient;
