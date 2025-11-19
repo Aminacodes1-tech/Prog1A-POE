@@ -38,7 +38,7 @@ public class MessageHelper {
         loadStoredMessagesFromJSON();
     }
     
-    // Getters for arrays
+    // Getters for the arrays
     public List<Message> getSentMessages() { return sentMessages; }
     public List<Message> getDisregardedMessages() { return disregardedMessages; }
     public List<Message> getStoredMessages() { return storedMessages; }

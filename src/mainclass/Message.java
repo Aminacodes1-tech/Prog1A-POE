@@ -183,7 +183,7 @@ public class Message {
             reader.close();
             return new JSONArray(content.toString());
         } catch (Exception e) {
-            // Return empty array if file doesn't exist or is empty
+            
             return new JSONArray();
         }
     }
